@@ -6,7 +6,18 @@ var unanswered = 0;
 var timer = 60;
 var interval;
 
-var correctAnswers =[];
+var correctAnswers =['A', 'B', 'C', 'D'];
+var checkingAnswers =[];
+
+//on submit push all values of the selected class into the checkingAnswers array .push
+
+//this is a loop
+//looping through your div with the class of question
+//var loopthru = $(.questions)
+//for var i, i <loopthru.length; i++
+//var userAnswers = $(".selected").val();
+//push to array
+// end loop
 
 
     var questionholder = [
@@ -100,8 +111,17 @@ $("#start").on("click", function() {
         $("#answer-C5").html("<h4>" + questionholder[4].C);
         $("#answer-D5").html("<h4>" + questionholder[4].D);
 
+        $("#answer").on("click", function () {
+            
+            console.log("test");   
+        });
 
+        
+        
+        
+        $("#submit").text("Submit");
 
+      
 
 
 
@@ -112,10 +132,29 @@ $("#start").on("click", function() {
         questionGet(i);
         
     };
-
-    $("button").on("click", function() {
     
-        console.log("Hello");
+    $("#q1").on("click", function() {
+       
+        console.log(correctAnswers);
+    
+       
+    });
+        
+
+    $("#submit").on("click", function() {
+        $("#question-holder").empty();
+        stop();
+        $("#timer").empty();
+
+        var showcorrect = $("<div>");
+        var showincorrect = $("<div>");
+       
+
+        showcorrect.text("<p>Correct answers</p>");
+        showincorrect.text("<p>Incorrect answers</p>");
+
+
+        console.log("game over");
     });
 
     function run() {
