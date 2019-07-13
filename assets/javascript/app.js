@@ -1,5 +1,5 @@
 // console.log(triviaQuestions);
-let counter = 2;
+let counter = 10;
 // keeps track of current question. Starts at 0 because thats the first index an a array
 let currentQuestion = 0;
 let correct = 0;
@@ -46,7 +46,7 @@ function increment(){
 
 //loads the first question
 function displayQuestion() {
-    counter = 2;
+    counter = 10;
     timer = setInterval(increment, 1000);
 
   const question = triviaQuestions[currentQuestion].question;  //create new variable to hold the current question
