@@ -5,5 +5,10 @@ body {
 .choice {
     border: 1px solid;
     padding: 5px;
-    
+
+}
+
+#start {
+    margin-left: auto;
+    margin-right: auto;
 }
