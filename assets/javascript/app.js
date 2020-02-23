@@ -10,7 +10,9 @@ let timer;
 //Display question and choices into the html
 $("#start").on("click",  function () {
 
-    $(".jumbotron").html("");
+    // $("#test").html("");
+    $('#test').hide(); // hides the begin quiz box after game has started
+
 //loads the next question, once timer has reached 0 or an answer has been selected
 function nextQuestion() {
     //logic that lets function know its on the last question and to not run forever
@@ -23,8 +25,7 @@ function nextQuestion() {
         currentQuestion++;
         displayQuestion();
     }
-    // currentQuestion++;
-    // displayQuestion();
+
 }
 
 //stops the timer once it reaches 0
