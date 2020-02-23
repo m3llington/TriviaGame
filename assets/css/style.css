@@ -1,10 +1,13 @@
 body {
     background-color: antiquewhite;
+    background: #FFF url('images/secondbackgroundimg.png');
+    background-size: 100%;
 }
 
 .choice {
     border: 1px solid;
     padding: 5px;
+    border-color: antiquewhite;
 
 }
 #test {
@@ -40,4 +43,12 @@ body {
 #start {
     margin-left: auto;
     margin-right: auto;
+}
+
+#timer {
+    color: aliceblue;
+}
+
+#game {
+    color: aliceblue;
 }
