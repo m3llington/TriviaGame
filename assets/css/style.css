@@ -22,8 +22,9 @@ body {
     
     text-align: center;
     font-size: 20px;
-    background-color: cyan;
-    border: darkgreen 5px solid;
+    background-color: red;
+    color: rgba(54, 30, 192, 0.774);
+    border: whitesmoke 5px solid;
     padding: 5px;
     z-index: 100;
   }
