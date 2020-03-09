@@ -4,3 +4,8 @@ Basketball Trivia Game!
 This is a front end web application/game that was created using Javascript/Query for the functionality. Bootstrap was the CSS library used.
 
 Hosted using github pages https://m3llington.github.io/TriviaGame/
+
+
+Screenshots:
+
+![image](https://user-images.githubusercontent.com/50224404/76173644-82b31b80-6177-11ea-826a-1b19f978fbc0.png)
