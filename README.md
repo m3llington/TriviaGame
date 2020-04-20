@@ -5,11 +5,6 @@ This is a front end web application/game that was created using Javascript/Query
 
 Hosted using github pages https://m3llington.github.io/TriviaGame/
 
-<<<<<<< HEAD
-Screenshots:
-
-
-=======
 Description: Trivia Alpha version. Will be adding functionality with Gif's when correct answer is shown.
 
 
@@ -25,4 +20,3 @@ Screenshots:
 
 ![image](https://user-images.githubusercontent.com/50224404/76173767-aa56b380-6178-11ea-84df-7bc27e60e8a2.png)
 
->>>>>>> 32c3fa054dc6216df874d68cfdf585d0919af43c

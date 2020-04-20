@@ -1,6 +1,8 @@
 body {
     background-color: antiquewhite;
-    background: #FFF url('images/secondbackgroundimg.png');
+    image-rendering: pixelated;
+    background-size: cover;
+    background: #FFF url('images/thirdbasketbalbackgroundimg.png');
     background-size: 100%;
 }
 
@@ -21,10 +23,11 @@ body {
     -ms-transform: translate(-50%, -50%);
     
     text-align: center;
+    font-weight: bolder;
     font-size: 20px;
-    background-color: red;
-    color: rgba(54, 30, 192, 0.774);
-    border: whitesmoke 5px solid;
+    color: red;
+    text-shadow:2px 2px #002fff;
+    /* text shadow creates the blue shadowlike effect behind the trivia quiz title. For future reference use to differentiate between multi colored backgrounds. */
     padding: 5px;
     z-index: 100;
   }
@@ -48,8 +51,11 @@ body {
 
 #timer {
     color: aliceblue;
+    padding: 5px;
 }
 
 #game {
     color: aliceblue;
+    font-weight: bolder;
+    font-size: 20px;
 }
