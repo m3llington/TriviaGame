@@ -20,3 +20,5 @@ Background has changed since
 
 ![image](https://user-images.githubusercontent.com/50224404/76173767-aa56b380-6178-11ea-84df-7bc27e60e8a2.png)
 
+Bug  list: Reset button
+
