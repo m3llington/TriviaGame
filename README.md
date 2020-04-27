@@ -10,7 +10,7 @@ Description: Trivia Alpha version. Will be adding functionality with Gif's when 
 
 Screenshots:
 
-
+Background has changed since
 
 ![image](https://user-images.githubusercontent.com/50224404/76173661-b3935080-6177-11ea-9989-6191890efec8.png)
 
